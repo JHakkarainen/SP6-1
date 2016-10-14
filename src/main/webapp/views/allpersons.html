@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<div>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Details</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr ng-repeat="p in persons">
+            <td>{{p.name}}</td>
+            <td><a href="#/{{p.id}}">{{p.id}}</a></td>
+        </tr>
+    </tbody>
+</table>
+
+</div>

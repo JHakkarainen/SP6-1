@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<form name="addSomeone">
+    <label>Name</label>
+    <input type="text" name="name" ng-model="newperson.name" placeholder="Name">
+    <br/>
+    <label>Age:</label>
+    <input type="number" name="age" ng-model="newperson.age" placeholder="Age">
+    <br/>
+    <input type="submit" value="Submit" ng-click="addPerson()">
+</form>
